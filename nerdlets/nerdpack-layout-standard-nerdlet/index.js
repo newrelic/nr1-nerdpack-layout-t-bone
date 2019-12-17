@@ -15,7 +15,7 @@ import {
 
 // https://docs.newrelic.com/docs/new-relic-programmable-platform-introduction
 
-export default class NerdpackLayoutStandard extends React.Component {
+export default class NerdpackLayoutTBone extends React.Component {
   render() {
     return (
       <React.Fragment>
@@ -74,15 +74,7 @@ export default class NerdpackLayoutStandard extends React.Component {
             It can just as easily contain content. This is just an example of how it
             may be used.
           */}
-          <GridItem className="sidebar-container" columnSpan={3}>
-            <ul className="sidebar-list">
-              {/* Create an array that we'll use to display a bunch of list items */}
-              {Array.from(Array(50).keys()).map(item => {
-                return <li className="sidebar-list-item">List item {item}</li>;
-              })}
-            </ul>
-          </GridItem>
-          <GridItem className="primary-content-container" columnSpan={9}>
+          <GridItem className="primary-content-container" columnSpan={6}>
             <main className="primary-content full-height">
               <Stack
                 className="empty-state"
@@ -94,15 +86,43 @@ export default class NerdpackLayoutStandard extends React.Component {
                 gapType={Stack.GAP_TYPE.NONE}
               >
                 <StackItem>
-                  <h4 className="empty-state-header">How to use this layout</h4>
+                  <h4 className="empty-state-header">Column 1</h4>
                 </StackItem>
                 <StackItem>
                   <p className="empty-state-description">
-                    Open up
-                    <code>nerdpack-layout-standard-nerdlet/index.js</code> and
+                    To use this layout, open up
+                    <code>nerdpack-layout-t-bone-nerdlet/index.js</code> and
                     replace dummy content with your content. Have suggestions,
                     concerns, or ideas for how this template could be better?
-                    Feel free to <a href="https://github.com/newrelic/nr1-nerdpack-layout-standard" target="_blank"
+                    Feel free to <a href="https://github.com/newrelic/nr1-nerdpack-layout-t-bone" target="_blank"
+              rel="noopener noreferrer">submit an issue or PR :)</a>
+                    .
+                  </p>
+                </StackItem>
+              </Stack>
+            </main>
+          </GridItem>
+          <GridItem className="primary-content-container" columnSpan={6}>
+            <main className="primary-content full-height">
+              <Stack
+                className="empty-state"
+                fullWidth
+                fullHeight
+                verticalType={Stack.VERTICAL_TYPE.CENTER}
+                horizontalType={Stack.HORIZONTAL_TYPE.CENTER}
+                directionType={Stack.DIRECTION_TYPE.VERTICAL}
+                gapType={Stack.GAP_TYPE.NONE}
+              >
+                <StackItem>
+                  <h4 className="empty-state-header">Column 2</h4>
+                </StackItem>
+                <StackItem>
+                  <p className="empty-state-description">
+                    To use this layout, open up
+                    <code>nerdpack-layout-t-bone-nerdlet/index.js</code> and
+                    replace dummy content with your content. Have suggestions,
+                    concerns, or ideas for how this template could be better?
+                    Feel free to <a href="https://github.com/newrelic/nr1-nerdpack-layout-t-bone" target="_blank"
               rel="noopener noreferrer">submit an issue or PR :)</a>
                     .
                   </p>

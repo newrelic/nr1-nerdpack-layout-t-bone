@@ -1,6 +1,6 @@
 {
   "schemaType": "NERDLET",
-  "id": "nerdpack-layout-standard-nerdlet",
+  "id": "nerdpack-layout-t-bone-nerdlet",
   "description": "Describe me",
-  "displayName": "Standard nerdpack layout"
+  "displayName": "T-bone nerdpack layout"
 }

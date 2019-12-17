@@ -1,7 +1,7 @@
 {
   "schemaType": "LAUNCHER",
-  "id": "nerdpack-layout-standard-launcher",
-  "description": "Describe me",
-  "displayName": "Nerdpack Layout - Standard",
-  "rootNerdletId": "nerdpack-layout-standard-nerdlet"
+  "id": "nerdpack-layout-t-bone-launcher",
+  "description": "A boilerplate for the \"t-bone\" nerdpack design layout ",
+  "displayName": "Nerdpack Layout - T-bone",
+  "rootNerdletId": "nerdpack-layout-t-bone-nerdlet"
 }
