@@ -1,6 +1,4 @@
-/* eslint-disable no-trailing-spaces */
-
-import React from "react";
+import React from 'react';
 import {
   Grid,
   GridItem,
@@ -9,16 +7,15 @@ import {
   Dropdown,
   DropdownItem,
   TextField,
-  Button,
-  TableChart
-} from "nr1";
+  Button
+} from 'nr1';
 
 // https://docs.newrelic.com/docs/new-relic-programmable-platform-introduction
 
 export default class NerdpackLayoutTBone extends React.Component {
   render() {
     return (
-      <React.Fragment>
+      <>
         <Stack
           className="toolbar-container"
           fullWidth
@@ -40,10 +37,7 @@ export default class NerdpackLayoutTBone extends React.Component {
                 </Dropdown>
               </StackItem>
               <StackItem className="toolbar-item">
-                <TextField
-                  label="Search"
-                  placeholder="e.g. example query"
-                ></TextField>
+                <TextField label="Search" placeholder="e.g. example query" />
               </StackItem>
             </Stack>
           </StackItem>
@@ -55,12 +49,7 @@ export default class NerdpackLayoutTBone extends React.Component {
               horizontalType={Stack.HORIZONTAL_TYPE.RIGHT}
             >
               <StackItem>
-                <Button
-                  onClick={() => alert("You clicked me!")}
-                  type={Button.TYPE.PRIMARY}
-                >
-                  Primary button
-                </Button>
+                <Button type={Button.TYPE.PRIMARY}>Primary button</Button>
               </StackItem>
             </Stack>
           </StackItem>
@@ -94,8 +83,14 @@ export default class NerdpackLayoutTBone extends React.Component {
                     <code>nerdpack-layout-t-bone-nerdlet/index.js</code> and
                     replace dummy content with your content. Have suggestions,
                     concerns, or ideas for how this template could be better?
-                    Feel free to <a href="https://github.com/newrelic/nr1-nerdpack-layout-t-bone" target="_blank"
-              rel="noopener noreferrer">submit an issue or PR :)</a>
+                    Feel free to{' '}
+                    <a
+                      href="https://github.com/newrelic/nr1-nerdpack-layout-t-bone"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      submit an issue or PR :)
+                    </a>
                     .
                   </p>
                 </StackItem>
@@ -120,7 +115,7 @@ export default class NerdpackLayoutTBone extends React.Component {
             </main>
           </GridItem>
         </Grid>
-      </React.Fragment>
+      </>
     );
   }
 }
