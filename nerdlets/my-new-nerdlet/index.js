@@ -9,6 +9,7 @@ import {
   TextField,
   Button
 } from 'nr1';
+import EmptyState from '../components/EmptyState';
 
 // https://docs.newrelic.com/docs/new-relic-programmable-platform-introduction
 
@@ -65,59 +66,16 @@ export default class NerdpackLayoutTBone extends React.Component {
           */}
           <GridItem className="primary-content-container" columnSpan={6}>
             <main className="primary-content full-height">
-              <Stack
-                className="empty-state"
-                fullWidth
-                fullHeight
-                verticalType={Stack.VERTICAL_TYPE.CENTER}
-                horizontalType={Stack.HORIZONTAL_TYPE.CENTER}
-                directionType={Stack.DIRECTION_TYPE.VERTICAL}
-                gapType={Stack.GAP_TYPE.NONE}
-              >
-                <StackItem>
-                  <h4 className="empty-state-header">Column 1</h4>
-                </StackItem>
-                <StackItem>
-                  <p className="empty-state-description">
-                    Wondering <strong>how to use this layout</strong>? check out
-                    our tutorial on{' '}
-                    <a
-                      href="https://discuss.newrelic.com/t/how-to-populate-your-nerdpack-layout-template-with-data/90955"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      how to populate your Nerdpack layout template with data.
-                    </a>{' '}
-                    Have suggestions, concerns, or ideas for how this template
-                    could be better? Feel free to{' '}
-                    <a
-                      href="https://github.com/newrelic/nr1-nerdpack-layout-t-bone"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      submit an issue or PR :)
-                    </a>
-                    .
-                  </p>
-                </StackItem>
-              </Stack>
+              {/* ⌄⌄ REPLACE THE LINE _BELOW_ WITH YOUR CONTENT ⌄⌄ */}
+              <EmptyState heading="Column 1" />
+              {/* ^^ REPLACE THE LINE _ABOVE_ WITH YOUR CONTENT ^^ */}
             </main>
           </GridItem>
           <GridItem className="primary-content-container" columnSpan={6}>
             <main className="primary-content full-height">
-              <Stack
-                className="empty-state"
-                fullWidth
-                fullHeight
-                verticalType={Stack.VERTICAL_TYPE.CENTER}
-                horizontalType={Stack.HORIZONTAL_TYPE.CENTER}
-                directionType={Stack.DIRECTION_TYPE.VERTICAL}
-                gapType={Stack.GAP_TYPE.NONE}
-              >
-                <StackItem>
-                  <h4 className="empty-state-header">Column 2</h4>
-                </StackItem>
-              </Stack>
+              {/* ⌄⌄ REPLACE THE LINE _BELOW_ WITH YOUR CONTENT ⌄⌄ */}
+              <EmptyState heading="Column 2" description=" " />
+              {/* ^^ REPLACE THE LINE _ABOVE_ WITH YOUR CONTENT ^^ */}
             </main>
           </GridItem>
         </Grid>
