@@ -2,7 +2,7 @@
 
 ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/newrelic/nr1-nerdpack-layout-t-bone?include_prereleases&sort=semver) [![Snyk](https://snyk.io/test/github/newrelic/nr1-nerdpack-layout-t-bone/badge.svg)](https://snyk.io/test/github/newrelic/nr1-nerdpack-layout-t-bone)
 
-This nerdpack serves as a boilerplate for developers building on the New Relic One platform. In order to use this layout for your next project, follow the **Getting started88 instructions below, and then replace the dummy content in `nerdlet/index.js` with your content.
+This nerdpack serves as a boilerplate for developers building on the New Relic One platform. In order to use this layout for your next project, follow the **Getting started** instructions below, and then replace the dummy content in `nerdlet/index.js` with your content.
 
 #### What's included?
 
